@@ -72,9 +72,9 @@ else {
 			if(red.equalsIgnoreCase("red"));
 			isRed = true;
 		}
-		boolean isSquare;		
+		boolean isSquare = false;		
 		// Now ask the user what shape to draw. Based on their answer, set the isSquare variable
-		while(!isSquare) {
+		while(!isSquare);
 			String square = JOptionPane.showInputDialog("What shape do you want to draw?");
 			if(square.equalsIgnoreCase("square"));
 			isSquare = true;
