@@ -24,7 +24,8 @@ int Quarternum = Integer.parseInt(input3);
 		// Calculate how much money the user has.  Hint: Use a double variable 
 System.out.println("You have this much money! " +input+"*0.05 + "+input2+"*0.1 + "+input3+"*0.25!");
 		// Tell the user how much money they have in dollars and cents format (e.g. $6.75)
-
+System.out.println(""
+		+ "You are not as rich as me though >:)");
 	}
 }
 

@@ -35,10 +35,12 @@ String input2 = JOptionPane.showInputDialog("What percentage did you get on your
 int test = Integer.parseInt(input2);
 		// If they scored more than 70, they passed the exam.
 if(test >= 70) {
-	System.out.print("   Good Job! You Passed!");
+	System.out.print(""
+			+ "           Good Job! You Passed!");
 }
 else {
-	System.out.print("   Ha noob");
+	System.out.print(""
+			+ "           Ha noob");
 }
 		// Set the boolean passedExam based on their score.
 		
@@ -69,16 +71,17 @@ else {
 		// Ask the user what color to draw with. Based on their answer, set the isRed variable
 		while(!isRed) {
 			String red = JOptionPane.showInputDialog("What color do you want to draw with?");
-			if(red.equalsIgnoreCase("red"));
+			if(red.contentEquals("red"));
 			isRed = true;
 		}
 		boolean isSquare = false;		
 		// Now ask the user what shape to draw. Based on their answer, set the isSquare variable
 		while(!isSquare);
 			String square = JOptionPane.showInputDialog("What shape do you want to draw?");
-			if(square.equalsIgnoreCase("square"));
+			if(square.contentEquals("square"));
 			isSquare = true;
 		}
+	
 		
 		// Now you MUST use the && operator to join the booleans for this code. 
 		// Ask your teacher if you are not sure how
@@ -86,7 +89,7 @@ else {
 		// otherwise, tell the user you don't know how to draw that shape
 		
 
-	}
+	
 
 	
 	static void drawRedSquare() {
